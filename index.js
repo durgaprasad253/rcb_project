@@ -7,6 +7,10 @@ const app = express();
 const timer = () => {
   console.log("hello");
 };
+
+app.get("/home", (req, res) => {
+  res.send("home");
+});
 // Define a route
 app.get("/", (req, res) => {
   res.send("Hello, World!");
