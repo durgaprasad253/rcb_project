@@ -1,0 +1,18 @@
+{
+  "name": "rcb_project",
+  "version": "1.0.0",
+  "description": "ticket release notifier",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start" : "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
